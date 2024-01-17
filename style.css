@@ -180,19 +180,22 @@
 }
 
 .btn:hover {
-    transform: scale(1.1);
+    transform: scale(.91);
 }
 
 .about {
-    margin: 5rem 0 2rem 0;
+    margin: 5rem auto 2rem auto;
     /* height: 500px; */
     /* border: #FF5400 3px solid; */
     display: flex;
+    width: 99%;
+    /* margin: ; */
+    /* border: 2px solid #FF5400; */
 }
 
 .aboutLeft {
-    padding-left: 2rem;
-    width: 65%;
+    padding-left: 1rem;
+    width: 55%;
     /* height: 100%; */
     display: flex;
     /* border: #FF5400 3px solid; */
@@ -203,18 +206,18 @@
 
 .aboutRight {
     /* border: #FF5400 3px solid; */
-    width: 35%;
+    width: 45%;
     /* height: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 5rem;
+    padding-right: 1rem;
 }
 
 .aboutRight img {
-    /* height: 100%; */
-    /* width: 100%; */
-    padding-right: 5rem;
+    height: 100%;
+    width: 100%;
+    /* padding-right: 5rem; */
     object-fit: cover;
     background-size: cover;
     background-position: center;
@@ -268,7 +271,7 @@ ul>li {
 }
 
 .btn-primary:hover {
-    transform: scale(1.1);
+    transform: scale(.9);
 }
 
 .destinationDetails {
