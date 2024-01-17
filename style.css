@@ -161,15 +161,16 @@
 .btn {
     cursor: pointer;
     width: 40%;
-    height: 52px;
+    height: 60px;
     border-radius: 8px;
     background: #FF5400;
-    padding: 1rem;
+    padding: .5rem;
     outline: 0;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
     color: #FFF;
     text-align: center;
     font-size: 1rem;
